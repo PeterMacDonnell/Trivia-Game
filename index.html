@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia Game</title>
+
+  <!-- $ Link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap Link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <!-- My CSS Link -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+
+
+  <body>
+      <!--  -->
+      <div class = "container">
+      
+        <div class = "row justify-content-md-center">
+            <div class = "col-md-12">Welcome to Chinese Trivia!</div>
+            <div class = "col-md-12">Click the button below to start!</div>
+                      <div class="col-lg-4 col-lg-offset-4 ">
+                <button type="button" class="btn btn-primary btn-lg btn-block" id="start">Start</button>
+            </div>
+
+
+        
+
+
+
+
+
+
+        </div>
+        <div class="col-lg-4 col-lg-offset-4 text-center">
+            <p id="time">Time Remaining:<span id="timer"></span></p>
+        </div>
+
+        <div class="form-group text-center">
+            <p>1. In China, many languages and dialects are spoken. Which is most prevalent?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">Mandarin
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Cantonese
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">English
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Hakka
+                </label>
+            </form>
+            
+            <p>2. One of the most complicated Chinese characters still used is pronounced 'Biang', it has an astonishing 58 strokes and cannot by typed. What does it mean?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">A way to describe humanity
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">A cheater
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">A kind of noodle
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">An insult to Western foreigners
+                </label>
+            </form>
+
+            <p>3. One of the following numbers is culturally understood to be very unlucky. Which is it?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">4 because it sounds like death
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">2 because it can also mean evil
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">16 because it sounds like the word for Japan
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">1 because it is thought of as a 'lonely' number
+                </label>
+            </form>
+            
+            <p>4. What is the most widely used 'superapp' in China, used to communicate, blog, pay for things, make reservations, etc?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">WeChat微信
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">RenRen人人
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">QQ
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Pleco
+                </label>
+            </form>
+            
+            <p>5. Of the following, which is traditionally associated with Beijing?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Beef Noodle Soup牛肉面
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">Peking Duck北京烤鸭
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Pork fat over rice回锅肉盖饭
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Kung-Pao Chicken宫保鸡丁
+                </label>
+            </form>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-4">
+                    <button type="button" class="btn btn-primary btn-lg btn-block" id="done">DONE!</button>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+    <!-- JS Link -->
+  <script src="assets/javascript/app.js"></script>
+  </body>
